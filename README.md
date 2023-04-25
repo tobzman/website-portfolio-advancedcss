@@ -18,3 +18,5 @@ The navigation menu is located at the top of the page and includes links to each
 Usage
 
 This code was created by an me for my weekly projects.
+Link to my website
+![Alt text](Assets/week2screenshot.png)
