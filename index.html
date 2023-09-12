@@ -1,101 +1,128 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="./Assets/style.css" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
+<html>
+
+<head>
+<title>My Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta charset="UTF-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" type="text/css" href="./Assets/reset.css">
+<link rel="stylesheet" type="text/css" href="./Assets/style.css" />
 </head>
 
+<!--Hero img and links and a very brief intro of who i am-->
+
 <body>
-  <header>
-    <h1>Portfolio</h1>
-    <nav>
-      <ul>
-        <li>
-          <h2>About-ME</h2>
-        </li>
-        <li>
-          <h2>Work</h2>
-        </li>
-        <li>
-          <h2>Contact</h2>
-        </li>
-        <li>
-          <h2>Resume</h2>
-        </li>
-        <li>
-          <h2>Contact us</h2>
-        </li>
-      </ul>
-    </nav>
-  </header>
+    <div class="hero" alt="northern lights at night">
+        <header class="hero-text">
+             <nav>
+                <h1 class="logo">My Portfolio.</h1>
+                <ul> 
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#About">About</a></li>
+               </ul>
+            </nav>
+        </header>
+        <section class="content" id="Home">
+            <h4>Hello, my name is</h4>
+            <h1>Tobenna</h1>
+            <h3>I am an aspiring Web Developer</h3>
+            <div id="button">
+                <a href="#contact-me" class="button">contact me</a>
+            </div>
+        </section>
+    </div>
+    
 
-  <div id="container">
-    <main class="content">
+        <!--About Section where there is a picture of me and a short description-->
 
-      <section class="about" alt="About-Me">
-        <h2>About-ME</h2>
-        <p>Purpose driven graduate of Business Law.</p>
+        <section class="About" id="About">
+            <div class="main">
+                <div class="About-text">
+                    <h2>About Me</h2>
+                    <h5> Bootcamp student - Web Developer</h5>
+                    <p>I am a bootcamp student with a diverse skill set. My abilities encompass tasks such as optimising code, identifying and rectifying bugs, crafting visually appealing web designs, ensuring web accessibility, and much more. As I continue my journey through the bootcamp, I am confident that I will acquire even more valuable skills to add to my repertoire. However, for now, I invite you to take a look at the accomplishments I have achieved thus far, and I am eager to share and take pride in my current skill set.</p>
+                    </p>
 
-        <p>With the ability to use my general knowledge of company law, contract</p>
-        law,land law,family law, commercial law etc and my knowledge of business as well as finance, I
-        have ample experience and knowledge to meet and match the needs of your organisation.</p>
+                </div>
+            </div>
+        </section>
 
-        <p>I possess good analytical and comprehensive skills, proficient in SQL, Microsoft Office 365 as well as
-          Microsoft Access.</p>
+        <!--Projects Section where i added the pictures and header for this section-->
 
-        <p>I have a good working knowledge of PC platforms, VDI,VMW, Intune, printers, networks, databases, telecoms &
-          IT
-          systems.</p>
+        <section class="Projects" id="Projects">
+            <div class="main-text">
+                <h2>My Proj<span>ects</span></h2>
+            </div>
+            <div class="Project-content">
+                <div class="Row">
+                    <img src="./Assets/project.1.jpg" alt="How my brain is like when I code" style="width:100%"></a>
+                    <div class="layer">
+                        <h5>Project 1</h5>
+                </div>
+            </div>
 
-        <p>Strong experience in customer facing roles and sales.
-        </p>
-      </section>
+            <div class="Row">
+                <a href="https://github.com/tobzman/code-refactor-HTML.git"><img src="./Assets/GitHub.jpeg" alt="github logo" style="width:50%"></a>
+                <div class="layer">
+                    <h5>Project 2</h5>
+                    <a href="#"> <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
 
-      <article class="work">
-        <h2>Work</h2>
-        <div class="work-project">
-          <p>
-            Surf Report
-            Mern Stack
-          </p>
-        </div>
-        <div class="work-project">
-          <p>Led Wall
-            Node/IoT
-          </p>
-        </div>
-        <div class="work-project">
-          <p>
-            Calculator
-            React/JavaScript/CSS
-          </p>
-        </div>
-        <div class="work-project">
-          <p>Patel Puzzels
-            Mern Stack
-          </p>
-        </div>
-        <div class="work-project">
-          <p>
-            Run Buddy
-            HTML/CSS
-          </p>
-        </div>
-      </article>
-    </main>
-  </div>
-  <footer class="Footer">
-    <p>
-    <h2>Contact us</h2>
-    2345678901
-    Email
-    GitHub
-    Twitter
-    Spotify
-    </p>
-  </footer>
+            <div class="Row">
+                <img src="./Assets/project.3.jpg" alt="written code" style="width:50%">
+                <div class="layer">
+                    <h5>Project 3</h5>
+                    <a href="#"> <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="Row">
+                <img src="./Assets/project.4.jpg" alt="dark laptop screen with code display" style="width:50%">               
+                <div class="layer">
+                    <h5>Project 4</h5>
+                    <a href="#"> <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="Row">
+                <img src="./Assets/picture.5.jpg" alt="code lines matrix effect" style="width:50%">               
+                <div class="layer">
+                    <h5>Project 5</h5>
+                    <a href="#"> <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="Row">
+                <img src="./Assets/picture.6.jpg" alt="multiple computer screens and keyboard" style="width:50%">               
+                <div class="layer">
+                    <h5>Project 6</h5>
+                    <a href="#"> <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact Section where all my contact information is and icons-->
+
+        <section class="Contact" id="Contact">
+            <div class="contact-text">
+                <h2>Contact Me</h2>
+                <div class="list">
+                    <nav>
+                    <ul>
+                    <li><a href="tvokafr@gmail.com" class="buttons"> <i class="fa-solid fa-envelope"></i>Gmail</a></li>
+                    <li><a href="https://www.linkedin.com" class="buttons"><i class="fa-brands fa-linkedin"></i>Linkedin</a></li>
+                    
+                    </ul>
+                </nav>                                 
+                </div>
+                <div class="Contact-me" id="contact-me"></div>
+            </div>
+        </section>
+
 </body>
 
 </html>
