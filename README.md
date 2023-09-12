@@ -19,4 +19,4 @@ Usage
 
 This code was created by an me for my weekly projects.
 Link to my website
-[Screenshot](Portofolio.png)
+![Alt text](Portofolio.png)
