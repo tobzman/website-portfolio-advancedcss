@@ -19,5 +19,4 @@ Usage
 
 This code was created by an me for my weekly projects.
 Link to my website
-![Alt text](Assets/week2screenshot.png)
-(http://localhost:52331/index.html)
+[Screenshot](Portofolio.png)
