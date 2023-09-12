@@ -113,6 +113,9 @@ h4 {
 .About {
   padding: 100px 0px;
   background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .About img {
