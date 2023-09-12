@@ -1,22 +1,46 @@
-# week-2-challenge
+# My Portfolio
 
-Portfolio Website
-This is a simple portfolio website that provides information about me, showcases my work and provides contact information.
-Technologies Used
-The website is built by HTML and styled with CSS. It also includes a link to an external CSS file.
-Pages and Navigation
+This is my personal portfolio website showcasing my skills and projects.
 
-The website includes the following pages:
+## Table of Contents
 
-    About-ME: This section includes a brief introduction of me and my skills and experience.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contact](#contact)
+- [Screenshot](#screenshot)
 
-    Work: This section displays a list of the my projects.
+## Introduction
 
-    Contact us: This section provides the my contact information including phone number, email, and links to my social media profiles.
+Welcome to my portfolio! This website is a representation of my journey as a bootcamp student in web development. It serves as a platform to display my skills, projects, and a brief introduction to who I am as an aspiring web developer.
 
-The navigation menu is located at the top of the page and includes links to each of the above pages.
-Usage
+## Features
 
-This code was created by an me for my weekly projects.
-Link to my website
-![Alt text](Portofolio.png)
+- Hero section with a brief introduction.
+- About section with a short description of my skills and background.
+- Projects section showcasing some of my work.
+- Contact section with links to reach out to me.
+
+## Usage
+
+1. **Explore:** Feel free to navigate through the various sections of the website.
+2. **Projects:** Check out the projects I've worked on by clicking on the images in the Projects section.
+3. **Contact:** Connect with me via the provided email or LinkedIn links in the Contact section.
+
+## Project Structure
+
+- `index.html`: The main HTML file that structures the content.
+- `style.css`: The CSS file for styling the website.
+- `Assets/`: Directory containing images used on the website.
+- `reset.css`: A CSS reset or normalization file to standardize styles across browsers.
+- `README.md`: You are currently reading it!
+
+## Contact
+
+- Email: [tvokafr@gmail.com](mailto:tvokafr@gmail.com)
+- LinkedIn: [My LinkedIn Profile](https://www.linkedin.com)
+
+## Screenshot
+
+- ![Alt text](Portofolio.png)
