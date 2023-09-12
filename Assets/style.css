@@ -33,7 +33,7 @@ nav {
 }
 
 .logo {
-  color: #3498db; /* Updated to a blue color */
+  color: #3498db;
   font-size: 35px;
   letter-spacing: 1px;
   cursor: pointer;
@@ -46,14 +46,14 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #ffffff; /* Updated to white */
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
   text-transform: capitalize;
 }
 
 nav ul li a:hover {
-  color: #e74c3c; /* Updated to a red color */
+  color: #e74c3c;
   transition: 0.4s;
 }
 
@@ -68,19 +68,19 @@ nav ul li a:hover {
 }
 
 h1 {
-  color: #ffffff; /* Updated to white */
+  color: #ffffff;
   margin: 20px 0px 20px;
   font-size: 75px;
 }
 
 h3 {
-  color: #ffffff; /* Updated to white */
+  color: #ffffff;
   font-size: 25px;
   margin-bottom: 50px;
 }
 
 h4 {
-  color: #ffffff; /* Updated to white */
+  color: #ffffff;
   letter-spacing: 2px;
   font-size: 20px;
   margin-top: 50px;
@@ -89,8 +89,8 @@ h4 {
 /* Contact me button */
 
 .button {
-  background-color: #e74c3c; /* Updated to a red color */
-  color: #ffffff; /* Updated to white */
+  background-color: #e74c3c;
+  color: #ffffff;
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
@@ -105,14 +105,14 @@ h4 {
 }
 
 .button:hover {
-  background-color: #3498db; /* Updated to a blue color */
+  background-color: #3498db;
 }
 
 /* About section/short description of me */
 
 .About {
   padding: 100px 0px;
-  background-color: #333; /* Updated to a dark gray color */
+  background-color: #333;
 }
 
 .About img {
@@ -124,7 +124,7 @@ h4 {
 
 .About-text {
   width: 500px;
-  color: #ffffff; /* Updated to white */
+  color: #ffffff;
 }
 
 /* Project section/imgs/links */
@@ -135,7 +135,7 @@ h4 {
   align-items: center;
   gap: 2.5rem;
   margin-top: 5rem;
-  background-color: #111; /* Updated to a dark background color */
+  background-color: #111;
 }
 
 .Row {
@@ -154,7 +154,7 @@ h4 {
   cursor: pointer;
   bottom: 10px;
   top: 1px;
-  color: #ffffff; /* Updated to white */
+  color: #ffffff;
 }
 
 .Row img {
@@ -162,7 +162,7 @@ h4 {
   border-radius: 8px;
   display: block;
   transition: transform 0.5s;
-  border: 10px solid #3498db; /* Updated to a blue color */
+  border: 10px solid #3498db;
 }
 
 .Row:hover {
@@ -178,7 +178,7 @@ h4 {
   display: flex;
   flex-direction: column;
   transition: height 0.5s;
-  color: #cbff00; /* Updated to a bright green color */
+  color: #cbff00;
   text-decoration: none;
   border: 7px solid transparent;
   font-weight: bold;
@@ -192,7 +192,7 @@ h4 {
 }
 
 .layer i {
-  color: #3498db; /* Updated to a blue color */
+  color: #3498db;
   margin-top: 20px;
   font-size: 20px;
   background-color: #000;
@@ -205,12 +205,12 @@ h4 {
 }
 
 .Projects {
-  background-color: #111; /* Updated to a dark background color */
+  background-color: #111;
   padding-top: 100px;
 }
 
 .main-text {
-  color: #ffffff; /* Updated to white */
+  color: #ffffff;
   width: 1130px;
   max-width: 95%;
   display: flex;
@@ -222,13 +222,13 @@ h4 {
 }
 
 .main-text span {
-  color: #d29d9d; /* Updated to a lighter gray color */
+  color: #d29d9d;
 }
 
 /* Contact section/logos */
 
 .contact {
-  background: #3498db; /* Updated to a blue color */
+  background: #3498db;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -267,7 +267,7 @@ h4 {
 .list ul li a {
   display: contents;
   width: 320px;
-  color: #06060b; /* Updated to a dark text color */
+  color: #06060b;
   font-size: 35px;
   transition: all, 1s ease;
   text-decoration: none;
@@ -278,8 +278,8 @@ h4 {
 /* Buttons for contact section */
 
 .buttons {
-  background-color: #ffffff; /* Updated to white */
-  color: #ffffff; /* Updated to white */
+  background-color: #ffffff;
+  color: #ffffff;
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: normal;
@@ -288,7 +288,7 @@ h4 {
 }
 
 .buttons:hover {
-  color: #3498db; /* Updated to a blue color */
+  color: #3498db;
 }
 
 .bottom-right {
